@@ -1,0 +1,39 @@
+<html>
+<head >
+    <link rel="stylesheet" href="TCcss.css">
+<title>BASE CONV</title>
+<script src="BCjs.js"></script>
+</head>
+<body align="center" style="font-family: Bahnschrift ">
+
+<div class="back">
+<h1>CHANGE FROM</h1>
+<input type="radio" onclick="f('2')" name="r1" value="b" id="3"><font size="4.5">BINARY</input>
+<input type="radio" onclick="f('10')" name="r1" value="d" id="3">DECIMAL</input>
+<input type="radio" onclick="f('8')" name="r1" value="o" id="3">OCTAL</input>
+<input type="radio" onclick="f('16')" name="r1" value="h" id="3">HEXADECIMAL</input>
+</div> 
+
+<div class="back">
+<h1>CHANGE TO</h1>
+<input type="radio" onclick="t('2')" name="r2" value="b" id="3">BINARY</input>
+<input type="radio" onclick="t('10')" name="r2" value="d" id="3">DECIMAL</input>
+<input type="radio" onclick="t('8')" name="r2" value="o" id="3">OCTAL</input>
+<input type="radio" onclick="t('16')" name="r2" value="h" id="3">HEXADECIMAL</input></font>
+</div>
+
+<div class="back">
+<input id="1" class="b2" type="text" size="15" maxlength="8" placeholder="Input">
+<input id="2" class="b2" type="text" size="15" maxlength="8" placeholder="Output" readonly>
+</div>
+
+<div class="back">
+<button class="b1" onclick="c()">CONVERT</button>
+</div>
+
+<div class="back">
+<input class="b1" onclick="r()" type="reset" value="RESET">
+</div>
+
+</body>
+</html>
